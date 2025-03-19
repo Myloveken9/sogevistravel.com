@@ -69,9 +69,9 @@ Sogevis est une agence spécialisée dans l’organisation de voyages sur mesure
    git clone https://github.com/Myloveken9/sogevistravel.com
 
 
-## 🔐 LicenSe
+## 🔐 License
 
-### MIT LicenSe
+### MIT License
 
 Ce projet est sous la licence MIT. Voir le fichier [LICENSE](./LICENSE) pour plus de détails.
 
