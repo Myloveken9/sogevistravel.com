@@ -5,7 +5,7 @@
 
 ---
 
-🔗[Bienvenue](#-bienvenue) - [Description](#-description) - [Fonctionnalités](#-fonctionnalités) - [Aperçu du Site](#-aperçu-du-site) - [Destinations populaires](#-destinations-populaires) - [Prérequis](#-prérequis) - [Installation](#-installation) - [Licence](#-licence) - [Auteur](#-auteur)
+🔗[Bienvenue](#-bienvenue) - [Description](#-description) - [Fonctionnalités](#-fonctionnalités) - [Aperçu du Site](#-aperçu-du-site) - [Destinations populaires](#-destinations-populaires) - [Prérequis](#-prérequis) - [Installation](#-installation) - [License](#-license) - [Auteur](#-auteur)
 
 ## 🏝 Bienvenue
 
@@ -31,13 +31,29 @@ Sogevis est une agence spécialisée dans l’organisation de voyages sur mesure
 
 ## ✈ Destinations populaires
 
-- **Haïti**    ![Haiti](assets/haiti.webp.webp)
+## - **Haïti**
 
-- **Brésil**   ![Brésil](assets/brazil.webp.webp)
+`Haiti offre une experience unique alliant un patrimoine historique exceptionnel, des paysages naturels époustouflants et une culture vibrante, faisant de ce pays une destination idéale pour les voyageurs en quête d'authenticité et de decouverte`
 
-- **Europe**   ![Europe](assets/europe.webp.webp)
+![Haiti](./sogevistravel.com/assets/haiti-flag.png)
 
-- **Amérique**  ![Usa](assets/usa.webp.webp)
+## - **Brésil**
+
+`Le Brésil séduit par sa diversité culturelle, ses plagees paradisiaques, sa forêt amazonienne unique et ses villes emblématiques comme Rio de Janeiro, offrant une experience imersives aux voyageurs en quête dáventure et de découverte`
+
+![Brésil](./sogevistravel.com/assets/brazil-flag.png)
+
+## - **Europe**
+
+`LÉurope, avec son histoire millénaire, sa diversité culturelle et ses paysages variés, est une destination incontournable pour ceux désireux de découvrir des monuments iconiques, des traditions anciennes et une cuisine raffinée`
+
+![Europe](./sogevistravel.com/assets/eu-flag.png)
+
+## - **Amérique**
+
+`Le continent américain regorge de destinations variées, alliant richesses naturelles, patrimoine historique fascinant et cultures vibrantes, offrant ainsi une miltitude déxpériences pour tous types de voyageurs`
+
+![Usa](./sogevistravel.com/assets/usa-flag.png)
 
 ## 📩 Prérequis
 
@@ -53,11 +69,13 @@ Sogevis est une agence spécialisée dans l’organisation de voyages sur mesure
    git clone https://github.com/Myloveken9/sogevistravel.com
 
 
-## 🔐 Licence
+## 🔐 LicenSe
 
-Licence via MIT
+### MIT LicenSe
 
-Ce projet est sous la licence MIT. Consulte le fichier LICENSE pour plus d'informations.
+Ce projet est sous la licence MIT. Voir le fichier [LICENSE](./LICENSE) pour plus de détails.
+
+L'avis de copyright ci-dessus et cet avis de permission doivent être inclus dans toutes les copies ou parties substantielles de ce logiciel.
 
 ## 👩‍💻 Auteur
 
@@ -66,3 +84,5 @@ Ce repository est developper par
 |Auteur|Identification|
 |----------------|----------------|
 | Kenlove Chereste |202303003791|
+
+### Copyright (c) [2025] [Mynek-Global]
