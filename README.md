@@ -79,7 +79,7 @@ L'avis de copyright ci-dessus et cet avis de permission doivent être inclus dan
 
 ## 👩‍💻 Auteur
 
-Ce repository est developper par
+Ce referentiel est developper par
 
 |Auteur|Identification|
 |----------------|----------------|
