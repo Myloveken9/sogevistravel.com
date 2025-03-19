@@ -1,5 +1,5 @@
 
-# ![capa logotipe](./assets/SOGEVIS%20-%20VETOR.jpg)
+# ![capa logotipe](./sogevistravel.com/assets/SOGEVIS%20-%20VETOR.jpg)
 
 # ✈ Sogevis Travel - Agence de Voyage  🧳
 
@@ -13,7 +13,7 @@ Bienvenue sur **Sogevis Travel**, une plateforme de réservation de voyages déd
 
 ## 📝 Description
 
-![Airplane](<assets/Airplane arrival.gif>)
+![Airplane](./sogevistravel.com/assets/Airplane%20arrival.gif)
 
 Sogevis est une agence spécialisée dans l’organisation de voyages sur mesure et la gestion de services administratifs. Nous offrons des solutions complètes et personnalisées, allant de la réservation de billets d’avion, d’hôtels et de transferts, à la prise en charge de vos démarches administratives (visas, passeports, documents légaux, etc.). Avec une expertise reconnue et un accompagnement dédié, nous garantissons à nos clients une expérience fluide et sans tracas pour leurs voyages et obligations administratives. Notre priorité est d’assurer la satisfaction de chaque client, en offrant des services de qualité, rapides et efficaces.
 
@@ -27,7 +27,7 @@ Sogevis est une agence spécialisée dans l’organisation de voyages sur mesure
 
 ## 📋 Aperçu du Site
 
-![Sogevis Travel](./assets/preview.jpg)
+![Sogevis Travel](./sogevistravel.com/assets/preview.jpg)
 
 ## ✈ Destinations populaires
 
@@ -47,7 +47,7 @@ Sogevis est une agence spécialisée dans l’organisation de voyages sur mesure
 
 ## 📉 Installation
 
-1. **Cloner le dépôt** sur ton environnement local :
+1. **Cloner le referentiel** sur ton environnement local :
 
    ```bash
    git clone https://github.com/Myloveken9/sogevistravel.com
