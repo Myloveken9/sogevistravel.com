@@ -1,98 +1,233 @@
-/* Global Styles */
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #fafafa;
+/* RESET des marges et padding pour éviter les conflits */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-/* Header */
+/* Définition de la police de base et des couleurs globales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Style du header */
 header {
-    background-color: white;
-    color: white;
+    background-color: #2c3e50;
     padding: 20px;
+    color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 header .logo img {
-    width: 120px;
+    height: 50px;
 }
 
 header nav ul {
-    list-style-type: none;
+    list-style: none;
     display: flex;
+    gap: 20px;
 }
 
-header nav ul li {
-    margin-left: 20px;
-}
-
-header nav ul li a {
-    color:rgb(81, 171, 194);
+header nav a {
     text-decoration: none;
+    color: white;
     font-weight: bold;
+    transition: color 0.3s;
 }
 
-/* Hero Section */
+header nav a:hover {
+    color: #e74c3c;
+}
+
+/* Section Hero */
 .hero {
+    background-color: #3498db;
+    color: white;
     text-align: center;
-    background-color: #3c91a7;
-    padding: 50px 0;
+    padding: 60px 20px;
+    background-image: url('./assets/hero-background.jpg');  /* Image de fond */
+    background-size: cover;  /* L'image couvre toute la section */
+    background-position: center;  /* Centrer l'image */
+    background-repeat: no-repeat;  /* Pas de répétition de l'image */
 }
 
 .hero h2 {
-    color: white;
-    font-size: 2em;
+    font-size: 3rem;
+    margin-bottom: 20px;
 }
 
 .hero p {
-    color: white;
-    font-size: 1.2em;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
 }
 
-/* Destination Section */
-.destinations {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
-    padding: 20px;
+/* Section À propos de nous */
+.about {
+    padding: 40px 20px;
+    background-color: #fff;
 }
 
-.destination img {
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.about ul {
+    margin-bottom: 30px;
+}
+
+.about ul li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.about img {
     width: 100%;
-    border-radius: 8px;
+    height: auto;  /* Maintient les proportions de l'image */
+    max-width: 100%; /* S'assure que l'image ne dépasse jamais la largeur du parent */
+    display: block;
+    margin: 20px auto;
 }
 
-.destination h3 {
-    font-size: 1.5em;
-    margin-top: 10px;
+/* Mise en page flexible pour la section "Notre Bureau" et "Notre Équipe" */
+.about-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
 }
 
-.destination p {
-    font-size: 1em;
-    margin-top: 10px;
+.about-item h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
 }
 
-.btn {
-    display: inline-block;
-    background-color: #3a91a7;
+.about-item p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.about-item img {
+    width: 100%;
+    height: auto;  /* Maintient les proportions des images */
+    max-width: 100%;  /* Ne dépasse jamais la largeur du parent */
+    margin: 20px 0;
+}
+
+/* Section Call to Action (CTA) */
+.cta {
+    background-color: #e74c3c;
     color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.cta h3 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.cta p {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+}
+
+.cta .btn {
+    background-color: #fff;
+    color: #e74c3c;
+    font-weight: bold;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
-    margin-top: 10px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-.btn:hover {
-    background-color:rgb(79, 131, 151);
+.cta .btn:hover {
+    background-color: #e74c3c;
+    color: #fff;
 }
 
 /* Footer */
 footer {
-    background-color: #3c91a7;
-    color: black;
+    background-color: #34495e;
+    color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #e74c3c;
+}
+
+/* MEDIA QUERIES pour responsive design */
+
+/* Pour les écrans plus petits (tablettes, téléphones) */
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .about-section {
+        grid-template-columns: 1fr;
+    }
+
+    .about-item h3 {
+        font-size: 1.8rem;
+    }
+
+    .about-item p {
+        font-size: 1rem;
+    }
+
+    .cta h3 {
+        font-size: 2rem;
+    }
+
+    .cta p {
+        font-size: 1rem;
+    }
+}
+
+/* Pour les écrans très petits (smartphones) */
+@media (max-width: 480px) {
+    .hero h2 {
+        font-size: 1.6rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .cta h3 {
+        font-size: 1.6rem;
+    }
+
+    .cta p {
+        font-size: 1rem;
+    }
 }

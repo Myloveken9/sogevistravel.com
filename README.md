@@ -79,7 +79,7 @@ L'avis de copyright ci-dessus et cet avis de permission doivent être inclus dan
 
 ## 👩‍💻 Auteur
 
-Ce referentiel est developper par
+Ce référentiel est developper par
 
 |Auteur|Identification|
 |----------------|----------------|
